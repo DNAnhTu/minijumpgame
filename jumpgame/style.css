@@ -1,0 +1,45 @@
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+  }
+  .highScore {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    background: rgba(121, 194, 199, 0.623);
+    padding-top: 8px;
+    text-align-last: center;
+    text-align: center;
+    font-size: 18px;
+  }
+  #replay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 10;
+    background: rgba(121, 194, 199, 0.623);
+    border: none;
+    color: #222;
+    width: 150px;
+    height: 50px;
+  }
+  #bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129, 199, 204, 0.404);
+    width: 600px;
+    height: 400px;
+    z-index: 0;
+  }
+  
